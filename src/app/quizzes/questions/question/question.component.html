@@ -3,7 +3,7 @@
     {{question.label}}
     <ul>
         <li  *ngFor="let answer of question.answers">
-             {{answer.value}} <div *ngIf="answer.isCorrect"> ✔ </div>
+             {{answer.value}} <span *ngIf="answer.isCorrect"> ✔ </span>
         </li>
     </ul>
   </h2>

@@ -15,6 +15,10 @@ import { QuestionComponent } from './quizzes/questions/question/question.compone
 import { QuestionFormComponent } from './quizzes/questions/question-form/question-form.component';
 import { QuestionListComponent } from './quizzes/questions/question-list/question-list.component';
 
+import { UserComponent } from './users/user/user.component';
+import { UserFormComponent } from './users/user-form/user-form.component';
+import { UserListComponent } from './users/user-list/user-list.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,9 +27,14 @@ import { QuestionListComponent } from './quizzes/questions/question-list/questio
     HeaderComponent,
     QuizFormComponent,
     EditQuizComponent,
+
     QuestionComponent,
     QuestionFormComponent,
-    QuestionListComponent
+    QuestionListComponent,
+
+    UserComponent,
+    UserFormComponent,
+    UserListComponent
   ],
   imports: [
     BrowserModule,

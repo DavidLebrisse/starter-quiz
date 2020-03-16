@@ -1,0 +1,13 @@
+<div class="card">
+    <h2>
+        <i class="fab fa-leanpub"></i>
+        {{user.username}}
+        <span *ngIf="user.age"> <br> Age: {{user.age}} </span>
+    </h2>
+    <button class="button-card" (click)="deleteUser()">Delete</button>
+  <!--
+  <nav *ngIf="user.id">
+    <a routerLink="/edit-user/{{user.id}}">Edit</a>
+  </nav>
+  -->
+</div>
